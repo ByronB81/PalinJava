@@ -13,4 +13,13 @@ public class PalinjavaTest {
     assertEquals(expectedOutput, testPalinjava.runPalinjava("ab"));
   }
 
+  @Test
+  public void runPalinjava_returnArray_ArrayList() {
+    Palinjava testPalinjava = new Palinjava();
+    List<Object> expectedOutput = new ArrayList<Object>();
+    expectedOutput.add("a");
+    expectedOutput.add("b");
+    assertEquals(expectedOutput, testPalinjava.runPalinjava("ab"));
+  }
+
 }
