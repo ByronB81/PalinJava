@@ -5,13 +5,13 @@ import java.util.List;
 
 public class PalinjavaTest {
 
-  @Test
-  public void runPalinjava_returnString_ArrayList() {
-    Palinjava testPalinjava = new Palinjava();
-    List<Object> expectedOutput = new ArrayList<Object>();
-    expectedOutput.add("ab");
-    assertEquals(expectedOutput, testPalinjava.runPalinjava("ab"));
-  }
+  // @Test
+  // public void runPalinjava_returnStringBoolean_true() {
+  //   Palinjava testPalinjava = new Palinjava();
+  //   List<Object> expectedOutput = new ArrayList<Object>();
+  //   expectedOutput.add("a");
+  //   assertEquals(true, expectedOutput instanceof String);
+  // }
 
   @Test
   public void runPalinjava_returnArray_ArrayList() {
