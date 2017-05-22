@@ -10,7 +10,7 @@ public class PalinjavaTest {
     Palinjava testPalinjava = new Palinjava();
     List<Object> expectedOutput = new ArrayList<Object>();
     expectedOutput.add("ab");
-    assertEquals(expectedOutput, testPalinjava.runPalinJava("ab"));
+    assertEquals(expectedOutput, testPalinjava.runPalinjava("ab"));
   }
 
 }
