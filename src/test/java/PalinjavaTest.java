@@ -22,4 +22,6 @@ public class PalinjavaTest {
     assertEquals(expectedOutput, testPalinjava.runPalinjava("ab"));
   }
 
+  
+
 }
